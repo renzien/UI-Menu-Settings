@@ -9,4 +9,9 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(sceneIndex);
     }
+
+    public void PrintBack(string pesan)
+    {
+        Debug.Log(pesan);
+    }
 }
